@@ -1,6 +1,6 @@
 BOARD_TAG    = leonardo
 MONITOR_PORT = /dev/ttyACM0
-ARDUINO_LIBS = Wire Adafruit_LIS3DH Adafruit_Sensor SPI
+ARDUINO_LIBS = Wire Adafruit_LIS3DH Adafruit_Sensor SPI Stepper
 
 include ../Arduino-Makefile/Arduino.mk
 
