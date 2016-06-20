@@ -21,7 +21,7 @@ oscillations, rather than increase them.
 
 ![Sinusoidal Driving Force](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mplwp_resonance_zeta_envelope.svg/600px-Mplwp_resonance_zeta_envelope.svg.png)
 
-If I could measure the resonant frequency of the chair + bub agregate,
+If I could measure the resonant frequency of the chair + bub aggregate,
 then I could drive an oscillator at that frequency and that should
 make the chair bounce.
 
