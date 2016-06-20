@@ -30,10 +30,10 @@ then I could drive oscillations with some kind of electromagnetic
 transducer.
 
 Because it would be driven at the ideal frequency, I shouldn't need to
-push against anything. All I would need is a reaction mass attached to
-the oscillation mechanism. Every action has an equal and opposite
-reaction, so as the mechanism pushed the weight down, the chair would
-rise up, and visa versa.
+push against anything fixed. All I would need is a reaction mass
+attached to the oscillation mechanism and free to move. Every action
+has an equal and opposite reaction, so as the mechanism pushed the
+weight down, the chair would rise up, and visa versa.
 
 The oscillation of the reaction mass could be driven by a stepper
 motor or a solenoid. I decided to go down the stepper motor route for
