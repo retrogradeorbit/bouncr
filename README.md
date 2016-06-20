@@ -40,3 +40,21 @@ anywhere. As such, I am hereby releasing this invention into the
 public domain for anyone to use. The idea and invention are public domain.
 
 The software to control the unit is released under the GPL v3 license.
+
+Pictures
+========
+
+Pictures of the prototype
+
+Parts
+=====
+
+Todo
+
+Construction
+============
+
+Mechanical and circuit build guide
+
+Software
+========
