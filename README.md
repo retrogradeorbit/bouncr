@@ -12,9 +12,13 @@ the force driving the system to osciallate approaches the resonant
 frequency, the energy transfer becomes very efficient, and a small
 input results in a large bounce.
 
+(https://en.wikipedia.org/wiki/Harmonic_oscillator#Sinusoidal_driving_force)
+
 As the frequency of the stimulus goes higher or lower than the
 resonant frequency, the applied force actually starts to dampen the
 oscillations, rather than increase them.
+
+!(https://en.wikipedia.org/wiki/Harmonic_oscillator#/media/File:Mplwp_resonance_zeta_envelope.svg)
 
 If I could measure the bounce frequency of chair + bub, then I could
 drive an oscillator at that frequency and that should make the chair
