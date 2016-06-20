@@ -8,7 +8,7 @@ chair, but then later in the shower the idea came to me.
 
 A wire hoop baby bouncer is an underdamped simple harmonic
 oscillator. Simple harmonic oscillators have a resonant frequency. As
-the force driving the system to osciallate approaches the resonant
+the force driving the system to oscillation approaches the resonant
 frequency, the energy transfer becomes very efficient, and a small
 input results in a large bounce.
 
