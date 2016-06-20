@@ -21,9 +21,13 @@ oscillations, rather than increase them.
 
 ![Sinusoidal Driving Force](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mplwp_resonance_zeta_envelope.svg/600px-Mplwp_resonance_zeta_envelope.svg.png)
 
-If I could measure the bounce frequency of chair + bub, then I could
-drive an oscillator at that frequency and that should make the chair
-bounce.
+If I could measure the bounce frequency of the chair + bub agregate,
+then I could drive an oscillator at that frequency and that should
+make the chair bounce.
+
+To measure the resonant frequency I would need an accelerometer. And
+then I could drive oscillations with some kind of electromagnetic
+transducer.
 
 Because it would be driven at the ideal frequency, I shouldn't need to
 push against anything. All I would need is a reaction mass attached to
@@ -97,3 +101,49 @@ To connect to the debug port over usb:
 ```
 make console ARDUINO_LIB_PATH=./libraries
 ```
+
+Operation
+=========
+
+The `select` button changes the mode between measure and osciallate.
+
+Measure
+-------
+
+Put the unit in this mode and with the child in the chair, gentle
+bounce the chair naturally with your hand. As each bounce occurs the
+unit will display the frequency on the display. Make note of that
+frequency.
+
+Oscillate
+---------
+
+Switch the unit to oscillate and navigate the menus with the up and
+down arrow keys. Use the left and right keys to change the highlighted
+value.
+
+### Frequency ###
+
+Set the frequency of oscillation here.
+
+### Intensity ###
+
+Apon startup, intensity is set to 0 and the unit does not
+oscillate. Use this setting to gradually increase intensity until the
+bouncing matches the baby's desires. Value ranges from 0 to 50.
+
+### Duty Cycle ###
+
+Select the duty cycle for the oscillation. Values are `100%`,
+`50%`, `33%` and `25%`.
+
+Bugs
+----
+
+Numerous bugs are still present because this is highly beta still.
+
+Also soon to be fixed:
+
+ * Duty cycle calculation is wrong
+ * Unit doesn't remember it's settings on poweroff
+ * Measure mode has to be switched on in firmware
