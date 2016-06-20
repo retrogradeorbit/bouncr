@@ -70,11 +70,11 @@ hobby supply store. Most of the other parts as well as bread boards
 and wiring I got from Adafruit. The following are links to the parts I
 purchased for my unit:
 
-[Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout Board](https://www.adafruit.com/products/2448)
-[Adafruit Blue&White 16x2 LCD+Keypad Kit for Raspberry Pi](https://www.adafruit.com/products/1115)
-[Stepper motor - NEMA-17 size - 200 steps/rev, 12V 350mA](https://www.adafruit.com/products/324)
-[Adafruit LIS3DH Triple-Axis Accelerometer (+-2g/4g/8g/16g)](https://www.adafruit.com/products/2809)
-[12 VDC 1000mA regulated switching power adapter - UL listed](https://www.adafruit.com/products/798)
+ - [Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout Board](https://www.adafruit.com/products/2448)
+ - [Adafruit Blue&White 16x2 LCD+Keypad Kit for Raspberry Pi](https://www.adafruit.com/products/1115)
+ - [Stepper motor - NEMA-17 size - 200 steps/rev, 12V 350mA](https://www.adafruit.com/products/324)
+ - [Adafruit LIS3DH Triple-Axis Accelerometer (+-2g/4g/8g/16g)](https://www.adafruit.com/products/2809)
+ - [12 VDC 1000mA regulated switching power adapter - UL listed](https://www.adafruit.com/products/798)
 
 Construction
 ============
