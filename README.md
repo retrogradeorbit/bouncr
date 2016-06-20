@@ -18,7 +18,7 @@ As the frequency of the stimulus goes higher or lower than the
 resonant frequency, the applied force actually starts to dampen the
 oscillations, rather than increase them.
 
-![Sinusoidal Driving Force](https://en.wikipedia.org/wiki/Harmonic_oscillator#/media/File:Mplwp_resonance_zeta_envelope.svg)
+![Sinusoidal Driving Force](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mplwp_resonance_zeta_envelope.svg/600px-Mplwp_resonance_zeta_envelope.svg.png)
 
 If I could measure the bounce frequency of chair + bub, then I could
 drive an oscillator at that frequency and that should make the chair
