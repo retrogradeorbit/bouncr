@@ -46,17 +46,36 @@ GPL v3 license.
 Pictures
 ========
 
-Pictures of the prototype
+Pictures of the prototype.
 
 Parts
 =====
 
-Todo
+ - Arduino Leonardo
+ - LIS3DH Triple-Axis Accelerometer
+ - 16x2 LCD + Keypad Kit
+ - NEMA-17 Stepper Motor
+ - TB6612 1.2A Dual H-Bridge
+ - Large bullclip
+ - Cable Ties
+ - Pair of mini locking pliers (aka multigrips)
+ - 12V Switch Mode DC power supply
+
+You can but the Arduino straight from arduino themselves or you local
+hobby supply store. Most of the other parts as well as bread boards
+and wiring I got from Adafruit. The following are links to the parts I
+purchased for my unit:
+
+[Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout Board](https://www.adafruit.com/products/2448)
+[Adafruit Blue&White 16x2 LCD+Keypad Kit for Raspberry Pi](https://www.adafruit.com/products/1115)
+[Stepper motor - NEMA-17 size - 200 steps/rev, 12V 350mA](https://www.adafruit.com/products/324)
+[Adafruit LIS3DH Triple-Axis Accelerometer (+-2g/4g/8g/16g)](https://www.adafruit.com/products/2809)
+[12 VDC 1000mA regulated switching power adapter - UL listed](https://www.adafruit.com/products/798)
 
 Construction
 ============
 
-Mechanical and circuit build guide
+Mechanical and circuit build guide to come.
 
 Software
 ========
