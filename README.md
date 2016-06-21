@@ -84,6 +84,10 @@ Mechanical and circuit build guide to come.
 Software
 ========
 
+Clone this project as a sibling directory to Arduino-Makefile. You can clone Arduino-Makefile from here: https://github.com/sudar/Arduino-Makefile
+
+At this point you should have two directories side by side. `bouncr` and `Arduino-Makefile`. Change directory into `bouncr` and issue the build commands.
+
 To build the firmware image go:
 
 ```
