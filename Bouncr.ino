@@ -13,40 +13,19 @@
 #include "window.h"
 #include "daccel.h"
 #include "rocker.h"
-
-// Used for software SPI
-#define LIS3DH_CLK 13
-#define LIS3DH_MISO 12
-#define LIS3DH_MOSI 11
-
-// Used for hardware & software SPI
-#define LIS3DH_CS 10
-
-Adafruit_LIS3DH lis = Adafruit_LIS3DH();
+#include "pins.h"
 
 #if defined(ARDUINO_ARCH_SAMD)
 // for Zero, output on USB Serial console, remove line below if using programming port to program the Zero!
    #define Serial SerialUSB
 #endif
 
-void print_data_point(int n) {
-  for(int i=0; i<n; i++)
-    Serial.print(" ");
-  Serial.println("-=+O0O+=-");
-}
-
-// we hand measured this at 5.55
-// TODO: create a mode that measures this for us
-#define STILL 6.5 //bit of dead area
-
-int in1Pin = 4;
-int in2Pin = 5;
-int in3Pin = 6;
-int in4Pin = 7;
-
-Stepper motor(200, in1Pin, in2Pin, in3Pin, in4Pin);
-
-#define DELAY 500
+Adafruit_LIS3DH lis = Adafruit_LIS3DH();
+Stepper motor(STEPPER_MOTOR_STEPS_PER_REV,
+	      STEPPER_MOTOR_PIN1,
+	      STEPPER_MOTOR_PIN2,
+	      STEPPER_MOTOR_PIN3,
+	      STEPPER_MOTOR_PIN4);
 
 // The shield uses the I2C SCL and SDA pins. On classic Arduinos
 // this is Analog 4 and 5 so you can't use those for analogRead() anymore
@@ -66,19 +45,15 @@ Adafruit_RGBLCDShield lcd = Adafruit_RGBLCDShield();
 void setup() {
   // Debugging output
   Serial.begin(9600);
-  // set up the LCD's number of columns and rows:
-  lcd.begin(16, 2);
 
-  // Print a message to the LCD. We track how long it takes since
-  // this library has been optimized a bit and we're proud of it :)
-  //int time = millis();
+  lcd.begin(16, 2);
   lcd.print("  Baby Bouncer  ");
   lcd.setCursor(0,1);
   lcd.print("  version 0.1   ");
-  /* time = millis() - time; */
-  /* Serial.print("Took "); Serial.print(time); Serial.println(" ms"); */
   lcd.setBacklight(1);
+
   motor.setSpeed(60);
+
   delay(3000);
 }
 
