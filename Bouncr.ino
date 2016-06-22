@@ -33,15 +33,6 @@ Stepper motor(STEPPER_MOTOR_STEPS_PER_REV,
 // the I2C bus.
 Adafruit_RGBLCDShield lcd = Adafruit_RGBLCDShield();
 
-// These #defines make it easy to set the backlight color
-#define RED 0x1
-#define YELLOW 0x3
-#define GREEN 0x2
-#define TEAL 0x6
-#define BLUE 0x4
-#define VIOLET 0x5
-#define WHITE 0x7
-
 void setup() {
   // Debugging output
   Serial.begin(9600);
@@ -74,16 +65,13 @@ void display_mode(uint8_t mode) {
 static const char *menu_items[] = {
   "duty-cycle ",
   "frequency ",
-  "intensity ",
-  "back-off  "
+  "intensity "
 };
 
 #define MENU_ITEM_COUNT 2
-
 #define MENU_ITEM_DUTYCYCLE 0
 #define MENU_ITEM_FREQUENCY 1
 #define MENU_ITEM_INTENSITY 2
-#define MENU_ITEM_BACKOFF   3
 
 uint8_t intensity = 0;
 uint8_t dutycycle = 1;
